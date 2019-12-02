@@ -1,0 +1,114 @@
+=================================================
+
+https://linpack-for-tableau.com/data-visualizations/tableau-dashboards/
+
+=================================================
+
+Tableau starter
+
+https://www.tableau.com/products/dashboard-starters-downloads
+
+https://www.tableautemplates.com/collections/free-templates/products/tableau-template-colorblind
+
+=================================================
+
+
+https://www.materialui.co/unicode-characters
+
+=================================================
+
+DATEDIFF('day',[Order Date],[Ship Date])
+
+================================================
+
+If SUM ([Revenue Cal]) > 600000
+Then " Good "
+Else "Bad"
+End
+
+Calculation 1:
+SUM([Profit])/SUM([Sales])
+
+SUM([Sales]-[Profit])
+
+
++ addition and concatenation
+- subtraction and negation
+* multiplication
+/   division
+% modular division
+^   exponents
+
+== 	equal
+>	greater
+<	smaller
+>=	greater or equal
+<=	smaller or equal
+!=	not equal
+<>	not equal
+
+
+
+================================================
+
+Number Function:
+https://onlinehelp.tableau.com/current/pro/desktop/en-us/functions_functions_number.htm
+
+String Function:
+https://onlinehelp.tableau.com/current/pro/desktop/en-us/functions_functions_string.htm
+
+Date Function:
+https://onlinehelp.tableau.com/current/pro/desktop/en-us/functions_functions_date.htm
+
+Aggregate Functions:
+https://onlinehelp.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_aggregate_create.htm
+
+Logical Function:
+https://onlinehelp.tableau.com/current/pro/desktop/en-us/functions_functions_logical.htm
+
+===============================================
+Logical Operators:
+
+IF SUM([Profit]) > 50000 AND SUM([Sales]) >300000 THEN ('High')
+ELSE ('Low')
+END
+
+
+
+CASE ([Region]) 
+WHEN "caribbean" THEN 1 
+WHEN "central America" THEN 2 
+WHEN "oceania" THEN 3
+WHEN "western US" THEN 4
+ELSE 5
+END
+
+
+===================================================
+
+show last value
+
+IF LAST()=0 THEN SUM([Sales]) END
+
+===================================================
+
+Clustering:
+k-means algorithm for clustering.
+https://onlinehelp.tableau.com/current/pro/desktop/en-us/clustering.htm
+
+Forecasting:
+exponential smoothing. 
+Forecast algorithms try to find a regular pattern in measures that can be continued into the future. 
+https://onlinehelp.tableau.com/current/pro/desktop/en-us/forecast_how_it_works.htm
+
+Analytics type:
+https://help.tableau.com/current/pro/desktop/en-us/trendlines_add.htm#modeltype
+
+
+=====================================================
+
+https://www.tableau.com/support/releases
+
+other version of Tableau
+
+======================================================
